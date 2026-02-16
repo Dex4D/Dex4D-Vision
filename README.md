@@ -82,7 +82,7 @@ For more options, please check [Video-Depth-Anything](https://github.com/DepthAn
 ### Offline Point Tracking
 
 ```bash
-CUDA_VISIBLE_DEVICES=1 python -m cotracker3 --filename outputs/video_gen/$exp_name/gen_video_resized.mp4 --grid_size 100 # --use-mask
+python -m cotracker3 --filename outputs/video_gen/$exp_name/gen_video_resized.mp4 --grid_size 100 # --use-mask
 ```
 
 
