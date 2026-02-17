@@ -1,11 +1,12 @@
 # numpy==1.24.0
 # torch==2.1.1
 # torchvision==0.16.1
+torch==2.9.1
 opencv-python
 matplotlib
 pillow
-# imageio==2.37.0
-# imageio-ffmpeg==0.4.7
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
 decord
 xformers
 einops==0.4.1
@@ -16,3 +17,4 @@ trimesh
 tyro
 ipdb
 pyjwt
+pupil_apriltags

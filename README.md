@@ -1,9 +1,19 @@
 # Dex4D-Vision
 
+This is the codebase for the vision toolkit of the Dex4D project.
 
 ## Installation
 
-### Video Depth Anything
+Please follow the steps below to perform the installation:
+
+### 1. Create virtual environment
+
+```bash
+conda create -n dex4d-vision python==3.11.0
+conda activate dex4d-vision
+```
+
+### 2. Video Depth Anything
 
 ```bash
 pip install -r requirements.txt
@@ -14,7 +24,7 @@ Download the checkpoints and put them under the `checkpoints` directory.
 bash get_weights.sh
 ```
 
-### CoTracker
+### 3. CoTracker
 
 ```bash
 pip install 'imageio[ffmpeg]'
@@ -23,7 +33,7 @@ git clone git@github.com:facebookresearch/co-tracker.git
 cd co-tracker/ && pip install -e .
 ```
 
-### RealSense
+### 4. RealSense
 
 ```bash
 pip install pyrealsense2
@@ -31,7 +41,7 @@ pip install pyrealsense2
 
 And follow instructions [here](https://github.com/realsenseai/librealsense/blob/master/doc/distribution_linux.md) to install the SDK.
 
-### SAM2
+### 5. SAM2
 
 ```bash
 cd <PATH_FOR_SAM2>/
@@ -45,7 +55,7 @@ cd ..
 
 ## Usage
 
-The following instructions will guide you the whole process of **first RGBD frame capture -> video generation -> video depth estimation -> offline point tracking**, as well as **online point tracking**. You can also run each module separately.
+The following instructions will guide you the whole process of **first RGBD frame capture -> video generation -> video depth estimation -> offline point tracking**, as well as **real-time online point tracking**. You can also run each module separately.
 
 ### RGBD Frame Capture
 
@@ -93,7 +103,7 @@ python visualize_track_4d.py --data_path outputs/ --exp_name $exp_name # --share
 ```
 
 
-### Online Real-Time Point Tracking (with Apriltag Calibration)
+### Real-Time Online Point Tracking (with Apriltag Calibration)
 
 ```bash
 python real_time_tracking.py --exp_name $exp_name
