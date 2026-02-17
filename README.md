@@ -2,6 +2,8 @@
 
 This is the codebase for the vision toolkit of the Dex4D project.
 
+NOTE: we will soon update the codebase to be an installable package for easier usage. Please stay tuned!
+
 
 https://github.com/user-attachments/assets/e5e3569b-c00c-4eee-b70a-62351525210e
 
