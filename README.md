@@ -2,6 +2,10 @@
 
 This is the codebase for the vision toolkit of the Dex4D project.
 
+
+https://github.com/user-attachments/assets/e5e3569b-c00c-4eee-b70a-62351525210e
+
+
 ## Installation
 
 Please follow the steps below to perform the installation:
@@ -102,12 +106,26 @@ python -m cotracker3 --filename outputs/video_gen/$exp_name/gen_video_resized.mp
 python visualize_track_4d.py --data_path outputs/ --exp_name $exp_name # --share
 ```
 
+After these steps, you should be able to see:
+
+
+https://github.com/user-attachments/assets/9774d441-87df-4bfb-a7c4-e1dd72fa7ff8
+
+
 
 ### Real-Time Online Point Tracking (with Apriltag Calibration)
 
 ```bash
 python real_time_tracking.py --exp_name $exp_name
 ```
+
+The real-time tracking process should look like this:
+
+
+
+https://github.com/user-attachments/assets/cfb6c933-9160-44d9-a8bb-e6bd510cd67a
+
+
 
 
 ## Acknowledgement
