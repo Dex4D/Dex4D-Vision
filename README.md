@@ -139,3 +139,17 @@ This project is built upon the following open-source projects:
 - [StoneT2000/simple-easyhec](https://github.com/StoneT2000/simple-easyhec)
 
 We thank the authors for their open-source contributions.
+
+
+## Citation
+
+If you find this work helpful, please consider citing:
+
+```
+@article{kuang2026dex4d,
+  title={Dex4D: Task-Agnostic Point Track Policy for Sim-to-Real Dexterous Manipulation},
+  author={Kuang, Yuxuan and Park, Sungjae and Fragkiadaki, Katerina and Tulsiani, Shubham},
+  journal={arXiv preprint arXiv:2602.15828},
+  year={2026}
+}
+```
