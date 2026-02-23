@@ -1,8 +1,10 @@
 # Dex4D-Vision
 
-This is the codebase for the vision toolkit of the Dex4D project.
+This is the codebase for the vision toolkit of our paper [Dex4D](https://arxiv.org/abs/2602.15828). This repository contains code for RGBD frame capture, video depth estimation, offline and online point tracking, and visualization of the point tracks in 4D.
 
-NOTE: we will soon update the codebase to be an installable package for easier usage. Please stay tuned!
+**[`[Paper]`](https://arxiv.org/abs/2602.15828) [`[Project Page]`](https://dex4d.github.io/) [`[Code (Simulation)]`](https://github.com/Dex4D/Dex4D-Simulation) [`[Code (Hardware)]`](https://github.com/Dex4D/Dex4D-Hardware)**
+
+**[NOTE]**: we will soon update the codebase to be an installable package for easier usage. Please stay tuned!
 
 
 https://github.com/user-attachments/assets/e5e3569b-c00c-4eee-b70a-62351525210e
